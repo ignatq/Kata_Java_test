@@ -20,7 +20,6 @@ public enum MathOperation {
 
     public static MathOperation of(String key) {
         for (MathOperation operation : MathOperation.values()) {
-            System.out.println("fdfsd " + operation.getOperator());
             if (key != null && key.equals(operation.getOperator())) {
                 return operation;
             }
