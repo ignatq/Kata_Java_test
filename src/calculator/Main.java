@@ -1,6 +1,5 @@
 package calculator;
 
-import java.sql.SQLOutput;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -34,7 +33,7 @@ public class Main {
                 System.out.println(calc(input));
             } catch (Exception e) {
                 System.out.println("ОЙ! Произошла ошибка : \n" + e.getMessage());
-//                throw e;
+                throw e;
             }
 
         }
